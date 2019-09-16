@@ -107,10 +107,10 @@ If you have any issues installing or running MLPACK, please refer to: https://gi
 
 (6) **Build HDSearch:**
 
-
+```
 cd src/HDSearch/protoc_files
 
-make  ---> It's fine if you have errors, just make sure that the "*.grpc.*" and "*pb.*" files get created.
+make  -> It's fine if you have errors, just make sure that the "*.grpc.*" and "*pb.*" files get created.
 
 cd ../bucket_service/service
 
@@ -122,17 +122,17 @@ make
 
 cd ../../load_generator/
 
-make  --> Open loop load generators are used for measuring latency and closed-loop load generators help measure throughput.
-
+make  -> Open loop load generators are used for measuring latency and closed-loop load generators help measure throughput.
+```
 
 Step back to the MicroSuite parent directory.
 
 (7) **Build Router:**
 
-
+```
 cd src/Router/protoc_files
 
-make  ---> It's fine if you have errors, just make sure that the "*.grpc.*" and "*pb.*" files get created.
+make  -> It's fine if you have errors, just make sure that the "*.grpc.*" and "*pb.*" files get created.
 
 cd ../lookup_service/service
 
@@ -145,16 +145,16 @@ make
 cd ../../load_generator/
 
 make
-
+```
 
 Step back to the MicroSuite parent directory.
 
 (8) **Build Set Algebra:**
 
-
+```
 cd src/SetAlgebra/protoc_files
 
-make  ---> It's fine if you have errors, just make sure that the "*.grpc.*" and "*pb.*" files get created.
+make  -> It's fine if you have errors, just make sure that the "*.grpc.*" and "*pb.*" files get created.
 
 cd ../intersection_service/service/
 
@@ -167,16 +167,16 @@ make
 cd ../../load_generator/
 
 make
-
+```
 
 Step back to the MicroSuite parent directory.
 
 (8) **Build Recommend:**
 
-
+```
 cd src/Recommend/protoc_files
 
-make  ---> It's fine if you have errors, just make sure that the "*.grpc.*" and "*pb.*" files get created.
+make  -> It's fine if you have errors, just make sure that the "*.grpc.*" and "*pb.*" files get created.
 
 cd ../cf_service/service/
 
@@ -189,7 +189,7 @@ make
 cd ../../load_generator/
 
 make
-
+```
 
 Step back to the MicroSuite parent directory.
 
