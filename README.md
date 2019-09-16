@@ -40,7 +40,7 @@ If you have any issues installing GRPC, refer to: https://github.com/grpc/grpc/b
 ```
 wget https://github.com/protocolbuffers/protobuf/releases/download/v3.9.1/protobuf-cpp-3.9.1.tar.gz
 
-tar -xzvf protobuf-cpp-3.9.1.tar.gz
+tar xzvf protobuf-cpp-3.9.1.tar.gz
 
 cd protobuf-3.9.1
 
@@ -71,9 +71,9 @@ wget http://registrationcenter-download.intel.com/akdlm/irc_nas/tec/11306/l_mkl_
 
 tar xzvf l_mkl_2017.2.174.tgz
 
-cd l_mkl_*
+cd l_mkl_2017.2.174
 
-./install.sh   -> Follow the prompts that appear to install MKL.
+sudo ./install.sh   -> Follow the prompts that appear to install MKL.
 ```
 
 Step back into the MicroSuite directory.
@@ -90,9 +90,9 @@ cd build
 
 cmake ..
 
-sudo make install
-
 make
+
+sudo make install
 ```
 
 If you have any issues installing FLANN, please refer to: http://www.cs.ubc.ca/research/flann/uploads/FLANN/flann_manual-1.8.4.pdf and https://github.com/mariusmuja/flann/issues
