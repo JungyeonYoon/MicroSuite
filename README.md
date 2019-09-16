@@ -38,11 +38,11 @@ If you have any issues installing GRPC, refer to: https://github.com/grpc/grpc/b
 (2) **Install Protobuf 3.0.0 or higher:**
 
 ```
-wget https://github.com/google/protobuf/releases/download/v3.2.0/protobuf-cpp-3.2.0.tar.gz
+wget https://github.com/protocolbuffers/protobuf/releases/download/v3.9.1/protobuf-cpp-3.9.1.tar.gz
 
-tar -xzvf protobuf-cpp-3.2.0.tar.gz
+tar -xzvf protobuf-cpp-3.9.1.tar.gz
 
-cd protobuf-3.2.0
+cd protobuf-3.9.1
 
 ./configure
 
